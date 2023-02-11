@@ -1,0 +1,18 @@
+{
+	"name": "michis-hotel",
+	"packageManager": "yarn@3.4.1",
+	"private": true,
+	"workspaces": [
+		"backend",
+		"frontend"
+	],
+	"scripts": {
+		"dev:frontend": "yarn workspace @michis-hotel/frontend dev",
+		"dev:backend": "yarn workspace @michis-hotel/backend start:dev",
+		"build": "yarn workspace @michis-hotel/backend build && yarn workspace @michis-hotel/frontend build",
+		"start": "yarn workspace @michis-hotel/backend start:prod && yarn workspace @michis-hotel/frontend preview"
+	},
+	"dependencies": {
+		"date-fns": "^2.29.3"
+	}
+}
