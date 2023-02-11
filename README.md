@@ -1,6 +1,6 @@
 # michis-hotel
 
-To run project locally this two commands need to run on separated terminal windows/tabs (because both commands hijacks terminal):
+To run project locally, after installing dependencies (`yarn install`), this two commands need to run on separated terminal windows/tabs (because both commands hijacks terminal):
 
 ```
 yarn dev:frontend
